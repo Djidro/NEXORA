@@ -1,0 +1,19 @@
+{
+  "name": "Productivity Hub",
+  "short_name": "Hub",
+  "description": "Tasks, notes, money, habits, planner, focus timer and tools in one Telegram Mini App.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0A1317",
+  "theme_color": "#0B7F82",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='112' fill='%230B7F82'/%3E%3Cpath d='M140 270l78 78 154-176' fill='none' stroke='%23fff' stroke-width='44' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="theme-color" content="#0B7F82">
+<title>Productivity Hub</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230B7F82'/%3E%3Cpath d='M17 34l10 10 20-23' fill='none' stroke='%23fff' stroke-width='6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+</head>
+<body>
+<header id="hd">
+  <button id="back" data-a="back" aria-label="Back" hidden></button>
+  <h1 id="ttl">Productivity Hub</h1>
+</header>
+<main id="view" aria-live="polite"></main>
+<nav id="nav" aria-label="Main"></nav>
+<div id="toast" role="status"></div>
+<script src="storage.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
